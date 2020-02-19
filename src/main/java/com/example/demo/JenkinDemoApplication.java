@@ -11,7 +11,7 @@ public class JenkinDemoApplication extends SpringBootServletInitializer{
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinDemoApplication.class, args);
 	}
-	@Override
+  @Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		return builder.sources(JenkinDemoApplication.class);
 	}
